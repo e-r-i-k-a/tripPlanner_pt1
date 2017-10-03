@@ -22,7 +22,11 @@
   #sidebar {
     z-index: 2;
     position: absolute;
-    background-color: white;
     right: 0px;
   }
 
+  #dropdowns, #itinerary {
+    background-color: white;
+    margin-top: 20px;
+    padding: 2px 10px 15px 10px;
+  }
