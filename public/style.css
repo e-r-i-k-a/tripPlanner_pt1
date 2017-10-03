@@ -8,7 +8,21 @@
     background-color: #C1B5AD;
   }
 
-  #map {
-    height: 100vh;
-    width: 100vw;
+  nav {
+    z-index: 3;
+    width: 100%;
   }
+
+  #map {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+  #sidebar {
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    right: 0px;
+  }
+
